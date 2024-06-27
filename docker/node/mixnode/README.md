@@ -9,7 +9,7 @@ This image can be used to run a nym mixnode version 1.1.3
 # Running the container wit A RAMDON ID
 docker run --name nym-node -p 8000:8000 -p 8080:8080 -p 1789:1789 -p 1790:1790 -idt paulrodas/nym-node:latest
 
-## OPTIONAL Running the container wit A SPECIFIED ID
+### OPTIONAL Running the container wit A SPECIFIED ID
 docker run --name nym-node -e NODE_ID=customnodeid -p 8000:8000 -p 8080:8080 -p 1789:1789 -p 1790:1790 -idt paulrodas/nym-node:latest
 
 # Monitoring the node
